@@ -41,7 +41,7 @@ public class MovieController {
         return movie;
     }
 
-    @PostMapping("/filmes")
+    /*@PostMapping("/filmes")
     public Movie saveMovie(@RequestBody Movie movie) {
         movie.setId(0);
 
@@ -68,6 +68,6 @@ public class MovieController {
         }
 
         movieService.delete(id);
-    }
+    }*/
 
 }
